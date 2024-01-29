@@ -7,9 +7,9 @@ const app = createApp({
         text: "Hello Vue!",
         class: "text-center",
       },
-      image:{
+      image: {
         logo: "Logo-Vuejs.png",
-        class: "text-center",
       },
+    };
   },
 }).mount("#app");
