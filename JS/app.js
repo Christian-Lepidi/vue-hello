@@ -2,6 +2,11 @@ const { createApp } = Vue;
 
 const app = createApp({
   data() {
-    return {};
+    return {
+      title: {
+        text: "Hello Vue!",
+        class: "text-center",
+      },
+    };
   },
 }).mount("#app");
